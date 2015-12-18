@@ -1,0 +1,382 @@
+
+/************************* 
+****** MEDIA QUERIES *****
+**************************/
+
+/* ALL VIEWS */
+
+@media screen and (max-width: 2500px) {
+	.mobile-menu {
+		visibility: hidden;
+	}
+}	
+@media screen and (max-width: 1199px) {
+    .screenshot-photo-trimble {
+		height: 700px;
+		width: auto;
+		margin: -20px auto;
+		display: block;
+	}
+}
+
+/* PORTFOLIO MOBILE CONTENT FIX */
+
+@media screen and (max-width: 991px) {
+	.portfolio-content-text {
+		padding: 0 5px;
+		margin: 0 0 20px 0;
+	}    
+	.portfolio-content-image {
+		margin: 0 auto 20px auto;
+	}
+	.portfolio-content-image img {
+		margin: 0 auto;
+		display: block;
+	}	
+	.portfolio-item-content {
+		margin-top: 15px;
+	}	
+	.screenshot-photo {
+    	height: 820px;
+    }	
+    .portfolio-content-image {
+    	margin: 0 auto 110px auto;
+	}
+	.namer-class {
+		margin-top: -40px !important;
+	}
+	.goally-img-one {
+		height: 390px;
+		margin-top: 10px !important;
+		margin-bottom: -60px !important;
+	}
+	.goally-img-two {
+		height: 390px;
+	}
+	.goally-screenshot-class {
+		width: 90%;
+	}
+}	
+
+/* DESKTOP VIEW 1 */
+
+@media screen and (max-width: 960px) {
+	.homepage-graphic {
+	    height: 210px;
+	}    
+	.homepage-link-icons {
+    	width: 817px;
+	}
+	.homepage-link-icons li {
+    	margin: 0 65px;
+    }	
+}	
+
+/* DESKTOP VIEW 2 */
+
+@media screen and (max-width: 840px) {
+	.homepage-graphic {
+	    height: 190px;
+	}  
+	.homepage-link-icons {
+    	width: 762px;
+	}
+	.homepage-link-icons li {
+    	margin: 0 55px;
+    }	  
+    .contact-content p {
+		font-size: 20px;
+		margin-top: 45px;
+	}
+}	
+
+
+/* TABLET VIEW 1 */
+
+@media screen and (max-width: 768px) {
+	.homepage-link-icons li {
+    	text-align: center;
+    	display: block;
+    	margin: 25px 55px;
+    }	 
+    .homepage-links-bottom {
+    	height: auto;
+	}
+	.homepage-link-icons {
+    	margin: 160px 0 -80px 0;
+    }	
+    .homepage-link-icons {
+    	width: auto;
+	}
+	.homepage-link-icons {
+    	width: auto;
+    	position: relative;
+    	left: -3%;
+	}
+	.header-links-wrapper {
+		display: none;
+	}
+	.fa.fa-bars {
+  		visibility: visible !important;
+	}
+	.mobile-menu {
+		display: block;
+		visibility: visible;
+	}
+	.contact-content p {
+		font-size: 19px;
+		margin-top: 50px;
+	}
+	.screenshot-photo-trimble {
+		height: 650px;
+		width: auto;
+		margin: -20px auto;
+		display: block;
+	}
+/* 	.title-area-home {
+		background-color: $joshAqua;
+		background: url('../images/header-background-tablet.jpg') 0 0 no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 385px;
+	}*/
+	.homepage-graphic {
+		-webkit-transform: translateY(-75%);
+		-moz-transform: translateY(-75%);
+		-ms-transform: translateY(-75%);
+		-o-transform: translateY(-75%);
+		transform: translateY(-75%);
+	} 
+}	
+
+
+
+/* TABLET VIEW 2 */
+
+@media screen and (max-width: 715px) {
+	.homepage-graphic {
+	    display: none;
+	}
+	.homepage-graphic-two {
+		display: block;
+		-webkit-transform: translateY(70%);
+		-moz-transform: translateY(70%);
+		-ms-transform: translateY(70%);
+		-o-transform: translateY(70%);
+		transform: translateY(70%);
+		margin: 0 auto;
+		height: 220px;
+	}    
+	.contact-content p {
+		font-size: 18px;
+		margin-top: 55px;
+	}  
+	.contact-break-one {
+		display: none;
+	}
+	.contact-break-two {
+		display: block;
+	}
+	.screenshot-photo-trimble {
+		height: 600px;
+		width: auto;
+		margin: -20px auto;
+		display: block;
+	}
+	.screenshot-photo-four {
+    	height: 350px;
+	}
+}
+
+@media screen and (max-width: 615px) {
+	.homepage-graphic-two {
+		height: 200px;
+	}	
+}	
+
+/* MOBILE VIEW 1 */
+
+@media screen and (max-width: 590px) {
+	.contact-break-three {
+		display: block;
+	}	
+	.contact-content p {
+		margin-top: 0;
+	}  
+	.contact-content {
+		-webkit-transform: translateY(80%);
+		-moz-transform: translateY(80%);
+		-ms-transform: translateY(80%);
+		-o-transform: translateY(80%);
+		transform: translateY(80%);
+	}	
+	.screenshot-photo-trimble {
+		height: 500px;
+		width: auto;
+		margin: -20px auto;
+		display: block;
+	}
+	.screenshot-photo-two,
+	.screenshot-photo {
+    	height: 700px;
+    }	
+    .screenshot-photo-trimble {
+		height: 450px;
+		width: auto;
+		margin: -20px auto;
+		display: block;
+	}
+}	
+
+/* MOBILE VIEW 2 */
+
+@media screen and (max-width: 500px) {
+	.homepage-graphic-two {
+	    height: 140px;
+	}    
+	.josh-logo {
+    	height: 20px;
+    	position: absolute;
+    	top: 28px;
+    	left: 25px;
+	}
+	.contact-content p {
+		font-size: 17px;
+	}	
+	.screenshot-photo-two,
+	.screenshot-photo {
+    	height: 550px;
+    }	
+    .screenshot-photo-trimble {
+		height: 400px;
+		width: auto;
+		margin: -20px auto;
+		display: block;
+	}
+	.screenshot-photo-four {
+    	height: 325px;
+	}
+	.strange-paragraph {
+		margin-bottom: 35px !important;
+	}
+	.goally-img-one {
+		height: 340px;
+		margin-top: 10px !important;
+		margin-bottom: -60px !important;
+	}
+	.goally-img-two {
+		height: 340px;
+	}
+}	
+
+/* MOBILE VIEW 3 */
+
+@media screen and (max-width: 475px) {
+	.contact-break-two {
+	    display: none;
+	}
+	.contact-break-three {
+	    display: none;
+	}
+	.contact-content p {
+    	padding: 0 40px;
+	}
+	.other-graphic.boost-graphic-two {
+		height: $otherHeaderSize - 5px;
+	}
+	.contact-body {
+		height: 700px;
+	}
+	.screenshot-photo-trimble {
+		height: 350px;
+		width: auto;
+		margin: -20px auto;
+		display: block;
+	}
+	.namer-class {
+		margin-top: -60px !important;
+	}
+	.goally-img-one {
+		height: 335px;
+		margin-top: 10px !important;
+		margin-bottom: -60px !important;
+	}
+	.goally-img-two {
+		height: 335px;
+	}
+}	
+
+/* MOBILE VIEW 4 */
+
+@media screen and (max-width: 400px) {
+	body,
+	.title-area-home {
+		overflow-x: hidden !important;
+	}
+	.contact-content p {
+    	padding: 0 35px;
+	}
+	.homepage-graphic-two {
+		position: relative;
+		right: 7px;
+	}
+	.josh-logo {
+    	left: 20px;
+	}
+	.homepage-link-icons li {
+		position: relative;
+		right: 10px;
+	}
+	.screenshot-photo-two,
+	.screenshot-photo {
+		height: 400px;
+		width: auto;
+	}
+	.screenshot-photo-trimble {
+		height: 330px;
+		width: auto;
+		margin: -20px auto;
+		display: block;
+	}
+	.screenshot-photo-four {
+    	height: 300px;
+	}
+	.goally-img-one {
+		height: 300px;
+		margin-top: 10px !important;
+		margin-bottom: -60px !important;
+	}
+	.goally-img-two {
+		height: 300px;
+		margin-bottom: -10px !important;
+	}
+}	
+
+@media screen and (max-width: 399px) {
+	/*.title-area-home {
+		background-color: $joshAqua;
+		background: url('../images/header-background-tablet.jpg') 0 0 no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 385px;
+	}*/
+	.social-icon-list {
+		position: relative;
+		left: 5px;		
+	}
+	.contact-content p {
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(10%);
+		-moz-transform: translateY(10%);
+		-ms-transform: translateY(10%);
+		-o-transform: translateY(10%);
+		transform: translateY(10%);
+	}
+	body {
+		overflow-x: hidden !important;
+	}
+	.screenshot-photo-trimble {
+		height: 290px;
+	}	
+}	

@@ -1,0 +1,40 @@
+
+/******************* 
+****** MODULES *****
+*******************/
+
+/* ALL PAGES */
+
+.header-links-wrapper {
+	position: absolute;
+	top: 27px;
+	right: 30px;
+}
+
+.header-links-list a {
+	display: inline-block;
+	padding: 0 8px;
+}	
+
+/* HOMEPAGE */
+
+.title-area-home {
+	background-color: $joshAqua;
+	background: url('../images/header-background.jpg') 0 0 no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 650px;
+}
+
+.homepage-links-bottom {
+	background-color: #FFF;
+	height: 150px;
+}
+
+/* ALL PAGES THAT AREN'T THE HOMEPAGE */
+
+.title-area-other {
+	background-color: $joshAqua;
+	width: 100%;
+	height: 170px;
+}

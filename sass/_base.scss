@@ -1,0 +1,44 @@
+
+/**************** 
+****** BASE *****
+*****************/
+
+/* Define what an element should look like anywhere on the page; the defaults */
+
+@import '../node_modules/normalize.css/normalize';
+
+body {
+	overflow-x: hidden;
+	a {
+		transition: color 0.25s ease;
+		color: $linkColor;
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		text-decoration: none;
+		font-weight: regular;
+		&:hover {
+			color: $linkHover;
+			text-decoration: none;
+		}
+	}
+	header {
+		width: 100%;
+		height: 80px;
+		background-color: #FFF;
+		position: relative;
+	}
+	ul {
+		list-style-type: none;
+	}
+	footer {
+		background-color: #011433; 
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		height: 55px;
+		z-index: 3;
+	}
+	li,
+	i {
+		transition: color 0.15s ease;
+	}
+}

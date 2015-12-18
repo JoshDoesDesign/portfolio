@@ -1,0 +1,67 @@
+
+/********************** 
+****** WEB FONTS ******
+**********************/
+
+
+/* HOMEPAGE NAV FONTS */
+
+.fa-picture-o { 
+	color: $linkColor;
+	font-size: $homePageLinkFontSize;
+	&:hover {
+		color: $linkHover;
+	}	
+}
+.fa-user {
+	color: $linkColor;	
+	font-size: $homePageLinkFontSize;	
+	&:hover {
+		color: $linkHover;
+	}	
+}
+.fa-envelope-o {
+	color: $linkColor;	
+	font-size: $homePageLinkFontSize;	
+	&:hover {
+		color: $linkHover;
+	}	
+}
+
+/* FOOTER FONTS */
+
+.fa-behance { 
+	color: #FFF;
+	&:hover {
+		color: $linkHover;
+	}
+	font-size: $socialFontSize;	
+}
+.fa-github {
+	color: #FFF;		
+	&:hover {
+		color: $linkHover;
+	}
+	font-size: $socialFontSize;	
+}
+.fa-twitter {
+	color: #FFF;		
+	&:hover {
+		color: $linkHover;
+	}
+	font-size: $socialFontSize;	
+}
+.fa-linkedin {
+	color: #FFF;		
+	&:hover {
+		color: $linkHover;
+	}
+	font-size: $socialFontSize;	
+}
+
+.social-icon-list {
+	width: 305px; 
+	margin: 0 auto;
+}
+
+
